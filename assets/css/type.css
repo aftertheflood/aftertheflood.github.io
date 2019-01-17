@@ -324,6 +324,12 @@ a, a:visited, a:hover {
   text-decoration: none;
 }
 
+.secondary a,
+.secondary a:visited,
+.secondary a:hover {
+  color: rgb(152, 152, 160)
+}
+
 body {
   color: #3a3a46;
   font-family: Graphik, Helvetica, Arial, sans-serif;
