@@ -319,15 +319,40 @@ Spark Font
 }
 
 /* page elements */
+a {
+  color: rgb(245, 45, 80);
+  text-decoration-line: none;
+}
 
-body{
+a:visited{
+  color: rgb(245, 45, 80);
+}
+
+a:hover{
+  color: rgb(245, 45, 80);
+}
+
+body {
   color: #3a3a46;
+  font-family: Graphik, Helvetica, Arial, sans-serif;
 }
 
 h1 {
-  font-size: 96px;
-  font-weight: 800;
-  font-family: Graphik, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.highlight{
+  color: rgb(245, 45, 80);
+}
+
+.secondary{
+  color: rgb(152, 152, 160)
+}
+
+h1 .secondary{
+  margin-left: 30px;
 }
 
 p{
