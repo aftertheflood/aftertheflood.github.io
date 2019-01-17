@@ -317,3 +317,20 @@ Spark Font
   font-feature-settings: "calt";
   font-size: 115%;
 }
+
+/* page elements */
+
+body{
+  color: #3a3a46;
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: 800;
+  font-family: Graphik, Helvetica, Arial, sans-serif;
+}
+
+p{
+  font-size: 1em;
+  font-family: Graphik, Helvetica, Arial, sans-serif;
+}
