@@ -6,6 +6,7 @@ body {
 footer {
   padding: 30px;
   padding-bottom: 100px;
+  width: 100%;
   background-image: url("https://aftertheflood.com/wp-content/uploads/2017/12/atf-logo-clipped-footer.png");
   background-size: 100%;
   background-color: #3a3a46;
