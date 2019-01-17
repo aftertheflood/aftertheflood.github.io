@@ -319,17 +319,9 @@ Spark Font
 }
 
 /* page elements */
-a {
+a, a:visited, a:hover {
   color: rgb(245, 45, 80);
-  text-decoration-line: none;
-}
-
-a:visited{
-  color: rgb(245, 45, 80);
-}
-
-a:hover{
-  color: rgb(245, 45, 80);
+  text-decoration: none;
 }
 
 body {
@@ -358,4 +350,8 @@ h1 .secondary{
 p{
   font-size: 24px;
   font-family: Graphik, Helvetica, Arial, sans-serif;
+}
+
+footer p{
+  font-size: 14px;
 }
