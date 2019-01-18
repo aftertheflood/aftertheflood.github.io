@@ -30,12 +30,12 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    grid-template-areas: "fullwidth fullwidth";
+    grid-column: 1 / span 2;
   }
 }
 
 .full-width{
-  grid-area: fullwidth;
+  grid-column: 1 / span 2;
 }
 
 footer {
