@@ -3,78 +3,78 @@ Graphik Font
 ----------------------------------------------------------*/
 
 @font-face {
-  font-family: 'Graphik';
-  src: url('https://www.aftertheflood.com/fonts/Graphik/Graphik-BlackItalic-Web.eot');
-  src: url('https://www.aftertheflood.com/fonts/Graphik/Graphik-BlackItalic-Web.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Graphik/Graphik-BlackItalic-Web.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Graphik/Graphik-BlackItalic-Web.woff') format('woff');
-  font-weight:  800;
-  font-style:   italic;
-  font-stretch: normal;
+	font-family: 'Graphik';
+	src: url('https://www.aftertheflood.com/fonts/Graphik/Graphik-BlackItalic-Web.eot');
+	src: url('https://www.aftertheflood.com/fonts/Graphik/Graphik-BlackItalic-Web.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Graphik/Graphik-BlackItalic-Web.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Graphik/Graphik-BlackItalic-Web.woff') format('woff');
+	font-weight:  800;
+	font-style:   italic;
+	font-stretch: normal;
 }
 
 .Graphik-BlackItalic {
-  font-family: 'Graphik';
-  font-weight:  800;
-  font-style:   italic;
-  font-stretch: normal;
+	font-family: 'Graphik';
+	font-weight:  800;
+	font-style:   italic;
+	font-stretch: normal;
 }
 
 
 @font-face {
-  font-family: 'Graphik';
-  src: url('https://www.aftertheflood.com/fonts/Graphik/Graphik-Black-Web.eot');
-  src: url('https://www.aftertheflood.com/fonts/Graphik/Graphik-Black-Web.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Graphik/Graphik-Black-Web.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Graphik/Graphik-Black-Web.woff') format('woff');
-  font-weight:  800;
-  font-style:   normal;
-  font-stretch: normal;
+	font-family: 'Graphik';
+	src: url('https://www.aftertheflood.com/fonts/Graphik/Graphik-Black-Web.eot');
+	src: url('https://www.aftertheflood.com/fonts/Graphik/Graphik-Black-Web.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Graphik/Graphik-Black-Web.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Graphik/Graphik-Black-Web.woff') format('woff');
+	font-weight:  800;
+	font-style:   normal;
+	font-stretch: normal;
 }
 
 .Graphik-Black {
-  font-family: 'Graphik';
-  font-weight:  800;
-  font-style:   normal;
-  font-stretch: normal;
+	font-family: 'Graphik';
+	font-weight:  800;
+	font-style:   normal;
+	font-stretch: normal;
 }
 
 
 @font-face {
-  font-family: 'Graphik';
-  src: url('https://www.aftertheflood.com/fonts/Graphik/Graphik-RegularItalic-Web.eot');
-  src: url('https://www.aftertheflood.com/fonts/Graphik/Graphik-RegularItalic-Web.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Graphik/Graphik-RegularItalic-Web.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Graphik/Graphik-RegularItalic-Web.woff') format('woff');
-  font-weight:  400;
-  font-style:   italic;
-  font-stretch: normal;
+	font-family: 'Graphik';
+	src: url('https://www.aftertheflood.com/fonts/Graphik/Graphik-RegularItalic-Web.eot');
+	src: url('https://www.aftertheflood.com/fonts/Graphik/Graphik-RegularItalic-Web.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Graphik/Graphik-RegularItalic-Web.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Graphik/Graphik-RegularItalic-Web.woff') format('woff');
+	font-weight:  400;
+	font-style:   italic;
+	font-stretch: normal;
 }
 
 .Graphik-RegularItalic {
-  font-family: 'Graphik';
-  font-weight:  400;
-  font-style:   italic;
-  font-stretch: normal;
+	font-family: 'Graphik';
+	font-weight:  400;
+	font-style:   italic;
+	font-stretch: normal;
 }
 
 
 @font-face {
-  font-family: 'Graphik';
-  src: url('https://www.aftertheflood.com/fonts/Graphik/Graphik-Regular-Web.eot');
-  src: url('https://www.aftertheflood.com/fonts/Graphik/Graphik-Regular-Web.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Graphik/Graphik-Regular-Web.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Graphik/Graphik-Regular-Web.woff') format('woff');
-  font-weight:  400;
-  font-style:   normal;
-  font-stretch: normal;
+	font-family: 'Graphik';
+	src: url('https://www.aftertheflood.com/fonts/Graphik/Graphik-Regular-Web.eot');
+	src: url('https://www.aftertheflood.com/fonts/Graphik/Graphik-Regular-Web.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Graphik/Graphik-Regular-Web.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Graphik/Graphik-Regular-Web.woff') format('woff');
+	font-weight:  400;
+	font-style:   normal;
+	font-stretch: normal;
 }
 
 .Graphik-Regular {
-  font-family: 'Graphik';
-  font-weight:  400;
-  font-style:   normal;
-  font-stretch: normal;
+	font-family: 'Graphik';
+	font-weight:  400;
+	font-style:   normal;
+	font-stretch: normal;
 }
 
 /*-----------------------------------------------------------
@@ -89,187 +89,187 @@ Spark Font
 /* Bars */
 
 @font-face {
-  font-family: 'Sparks-Bar-Extranarrow';
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extranarrow.eot');
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extranarrow.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extranarrow.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extranarrow.woff') format('woff'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extranarrow.ttf') format('truetype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extranarrow.svg#Sparks-Bar-Extranarrow') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Sparks-Bar-Extranarrow';
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extranarrow.eot');
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extranarrow.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extranarrow.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extranarrow.woff') format('woff'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extranarrow.ttf') format('truetype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extranarrow.svg#Sparks-Bar-Extranarrow') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Sparks-Bar-Narrow';
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Narrow.eot');
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Narrow.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Narrow.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Narrow.woff') format('woff'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Narrow.ttf') format('truetype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Narrow.svg#Sparks-Bar-Narrow') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Sparks-Bar-Narrow';
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Narrow.eot');
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Narrow.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Narrow.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Narrow.woff') format('woff'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Narrow.ttf') format('truetype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Narrow.svg#Sparks-Bar-Narrow') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Sparks-Bar-Medium';
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Medium.eot');
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Medium.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Medium.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Medium.woff') format('woff'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Medium.ttf') format('truetype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Medium.svg#Sparks-Bar-Medium') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Sparks-Bar-Medium';
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Medium.eot');
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Medium.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Medium.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Medium.woff') format('woff'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Medium.ttf') format('truetype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Medium.svg#Sparks-Bar-Medium') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Sparks-Bar-Wide';
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Wide.eot');
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Wide.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Wide.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Wide.woff') format('woff'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Wide.ttf') format('truetype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Wide.svg#Sparks-Bar-Wide') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Sparks-Bar-Wide';
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Wide.eot');
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Wide.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Wide.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Wide.woff') format('woff'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Wide.ttf') format('truetype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Wide.svg#Sparks-Bar-Wide') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Sparks-Bar-Extrawide';
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extrawide.eot');
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extrawide.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extrawide.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extrawide.woff') format('woff'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extrawide.ttf') format('truetype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extrawide.svg#Sparks-Bar-Extrawide') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Sparks-Bar-Extrawide';
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extrawide.eot');
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extrawide.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extrawide.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extrawide.woff') format('woff'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extrawide.ttf') format('truetype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Bar-Extrawide.svg#Sparks-Bar-Extrawide') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /* Dots */
 
 @font-face {
-  font-family: 'Sparks-Dot-Extrasmall';
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extrasmall.eot');
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extrasmall.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extrasmall.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extrasmall.woff') format('woff'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extrasmall.ttf') format('truetype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extrasmall.svg#Sparks-Dot-Extrasmall') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Sparks-Dot-Extrasmall';
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extrasmall.eot');
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extrasmall.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extrasmall.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extrasmall.woff') format('woff'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extrasmall.ttf') format('truetype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extrasmall.svg#Sparks-Dot-Extrasmall') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Sparks-Dot-Small';
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Small.eot');
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Small.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Small.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Small.woff') format('woff'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Small.ttf') format('truetype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Small.svg#Sparks-Dot-Small') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Sparks-Dot-Small';
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Small.eot');
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Small.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Small.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Small.woff') format('woff'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Small.ttf') format('truetype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Small.svg#Sparks-Dot-Small') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Sparks-Dot-Medium';
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Medium.eot');
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Medium.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Medium.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Medium.woff') format('woff'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Medium.ttf') format('truetype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Medium.svg#Sparks-Dot-Medium') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Sparks-Dot-Medium';
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Medium.eot');
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Medium.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Medium.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Medium.woff') format('woff'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Medium.ttf') format('truetype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Medium.svg#Sparks-Dot-Medium') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Sparks-Dot-Large';
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Large.eot');
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Large.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Large.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Large.woff') format('woff'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Large.ttf') format('truetype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Large.svg#Sparks-Dot-Large') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Sparks-Dot-Large';
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Large.eot');
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Large.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Large.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Large.woff') format('woff'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Large.ttf') format('truetype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Large.svg#Sparks-Dot-Large') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Sparks-Dot-Extralarge';
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extralarge.eot');
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extralarge.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extralarge.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extralarge.woff') format('woff'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extralarge.ttf') format('truetype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extralarge.svg#Sparks-Dot-Extralarge') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Sparks-Dot-Extralarge';
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extralarge.eot');
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extralarge.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extralarge.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extralarge.woff') format('woff'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extralarge.ttf') format('truetype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dot-Extralarge.svg#Sparks-Dot-Extralarge') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /* Dot-lines */
 
 @font-face {
-  font-family: 'Sparks-Dotline-Extrathin';
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathin.eot');
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathin.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathin.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathin.woff') format('woff'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathin.ttf') format('truetype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathin.svg#Sparks-Dotline-Extrathin') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Sparks-Dotline-Extrathin';
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathin.eot');
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathin.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathin.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathin.woff') format('woff'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathin.ttf') format('truetype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathin.svg#Sparks-Dotline-Extrathin') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Sparks-Dotline-Thin';
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thin.eot');
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thin.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thin.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thin.woff') format('woff'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thin.ttf') format('truetype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thin.svg#Sparks-Dotline-Thin') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Sparks-Dotline-Thin';
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thin.eot');
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thin.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thin.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thin.woff') format('woff'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thin.ttf') format('truetype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thin.svg#Sparks-Dotline-Thin') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Sparks-Dotline-Medium';
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Medium.eot');
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Medium.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Medium.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Medium.woff') format('woff'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Medium.ttf') format('truetype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Medium.svg#Sparks-Dotline-Medium') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Sparks-Dotline-Medium';
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Medium.eot');
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Medium.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Medium.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Medium.woff') format('woff'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Medium.ttf') format('truetype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Medium.svg#Sparks-Dotline-Medium') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Sparks-Dotline-Thick';
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thick.eot');
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thick.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thick.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thick.woff') format('woff'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thick.ttf') format('truetype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thick.svg#Sparks-Dotline-Thick') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Sparks-Dotline-Thick';
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thick.eot');
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thick.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thick.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thick.woff') format('woff'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thick.ttf') format('truetype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Thick.svg#Sparks-Dotline-Thick') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Sparks-Dotline-Extrathick';
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathick.eot');
-  src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathick.eot?#iefix') format('embedded-opentype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathick.woff2') format('woff2'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathick.woff') format('woff'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathick.ttf') format('truetype'),
-       url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathick.svg#Sparks-Dotline-Extrathick') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Sparks-Dotline-Extrathick';
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathick.eot');
+	src: url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathick.eot?#iefix') format('embedded-opentype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathick.woff2') format('woff2'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathick.woff') format('woff'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathick.ttf') format('truetype'),
+		 url('https://www.aftertheflood.com/fonts/Sparks/Sparks-Dotline-Extrathick.svg#Sparks-Dotline-Extrathick') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /* Sparks classes 
@@ -311,53 +311,129 @@ Spark Font
 .sparks-dotline-medium,
 .sparks-dotline-thick,
 .sparks-dotline-extrathick {
-  font-variant-ligatures: contextual;
-  -moz-font-feature-settings: "calt";
-  -webkit-font-feature-settings: "calt";
-  font-feature-settings: "calt";
-  font-size: 115%;
+	font-variant-ligatures: contextual;
+	-moz-font-feature-settings: "calt";
+	-webkit-font-feature-settings: "calt";
+	font-feature-settings: "calt";
+	font-size: 115%;
 }
 
 /* page elements */
-a, a:visited, a:hover {
-  color: rgb(245, 45, 80);
-  text-decoration: none;
+a, a:visited {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #bbb,
+	2px 2px 2px #bbb,
+	3px 3px 4px #bbb,
+	4px 4px 4px #bbb,
+	5px 5px 5px #bbb,
+	6px 6px 6px #bbb,
+	7px 7px 7px #bbb,
+	8px 8px 8px #bbb,
+	9px 9px 9px #bbb,
+	10px 10px 10px #bbb;
 }
+
+/* a:hover {
+	color: rgb(225, 0, 55);
+	text-shadow: 1px 1px 0px rgb(235, 132, 166),
+		2px 2px 0px rgb(235, 132, 166),
+		2px 2px 0px rgb(235, 132, 166),
+		3px 3px 0px rgb(235, 132, 166),
+		4px 4px 0px rgb(235, 132, 166),
+		5px 5px 0px rgb(235, 132, 166);
+	transition: color 1s, text-shadow 1.2s;
+	} */
+
+	a:hover {
+		color: #fff;
+		text-shadow: 1px 1px 1px #f5f5f5,
+			2px 2px 2px #f5f5f5,
+			3px 3px 3px #f5f5f5,
+			4px 4px 4px #f5f5f5,
+			5px 5px 5px #f5f5f5,
+			6px 6px 6px #f5f5f5,
+			7px 7px 7px #f5f5f5,
+			8px 8px 8px #f5f5f5,
+			9px 9px 9px #f5f5f5,
+			10px 10px 10px #f5f5f5;
+		transition: color 1.5s, text-shadow 1.5s;
+		}
 
 .secondary a,
 .secondary a:visited,
 .secondary a:hover {
-  color: rgb(152, 152, 160)
+	color: rgb(155, 155, 185)
 }
 
 body {
-  color: #3a3a46;
-  font-family: Graphik, Helvetica, Arial, sans-serif;
+	color: #3a3a46;
+	font-family: Graphik, Helvetica, Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	font-variant-ligatures: common-ligatures;
+	font-kerning: normal;
 }
 
-h1 {
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
+h1, 
+footer p {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.04em;
 }
 
-.highlight{
-  color: rgb(245, 45, 80);
+.highlight {
+	color: #000;
 }
 
-.secondary{
-  color: rgb(152, 152, 160)
+.secondary {
+	color: #ccc;
 }
 
-h1 .secondary{
-  margin-left: 30px;
+h1 .secondary {
+	margin-left: 30px;
 }
 
-p{
-  font-size: 24px;
-  font-family: Graphik, Helvetica, Arial, sans-serif;
+h2 {
+	font-size: 27px;
+	font-weight: 800;
+	letter-spacing: -0.01em;
 }
 
-footer p{
-  font-size: 14px;
+p {
+	font-size: 24px;
+	line-height: 1.3em;
+	font-family: Graphik, Helvetica, Arial, sans-serif;
+}
+
+
+
+/* TOC page 
+--------------------------------------------------------------------------------------- */
+
+.toc-list {
+	/* background: yellow; */
+	/* border-top: 1px solid #fff; */
+	color: #fff;
+}
+
+.toc-list h2, 
+.toc-list p {
+	font-size: 90px;
+	line-height: 1.1em;
+	/* max-width: 870px; */
+}
+
+.toc-list h2 {
+	font-weight: 800;
+	letter-spacing: -0.03em;
+	padding: 0;
+	margin: 0.15em 0 0 0;
+}
+
+.toc-list p {
+	font-weight: 400;
+	letter-spacing: -0.04em;
+	padding: 0;
+	margin: 0 0 0.75em 0;
 }
