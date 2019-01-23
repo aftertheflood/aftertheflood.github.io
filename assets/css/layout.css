@@ -4,7 +4,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background: #999;
+  background: #8f8f8f;
 }
 .page{
   /* display: grid; */
@@ -24,13 +24,22 @@ body {
   min-height: 100vh;
 }
 
+
 header {
-  padding: 30px;
-  padding-top: 20px;
+  padding: 20px;
+  padding-top: 10px;
 }
 
+@media only screen and (min-width: 900px) {
+  header {
+    padding: 30px;
+    padding-top: 20px;
+  }
+}
+
+
 .content{
-  padding: 30px;
+  padding: 20px;
   /* display: grid; */
 }
 
@@ -45,6 +54,7 @@ header {
   }
 }
 
+
 .full-width{
   /* grid-column: 1 / span 2; */
 }
@@ -58,7 +68,7 @@ footer {
   width: 100%;
   background-image: url("https://aftertheflood.com/wp-content/uploads/2017/12/atf-logo-clipped-footer.png");
   background-size: 100%;
-  background-color: rgb(30, 30, 36);
+  background-color: rgb(33, 33, 33);
   background-repeat: no-repeat;
   background-position: center bottom;
   color: #FFFFFF;

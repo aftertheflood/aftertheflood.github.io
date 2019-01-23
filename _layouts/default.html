@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="{{ '/assets/css/fonts.css' | relative_url }}" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/type.css' | relative_url }}" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/layout.css' | relative_url }}" type="text/css">
     <title>After The Flood</title>
@@ -8,11 +9,11 @@
   <body>
     <div class="page">
       <header>
-        <h1><span class="highlight">{{ site.name }}</span> <span class="secondary">{{ site.description }}</span></h1>
+        <h1><span class="highlight"><a href="/">{{ site.name }}</a></span> <span class="header-secondary">{{ site.description }}</span></h1>
       </header>
       <div role="main" class="content">{{ content }}</div>
       <footer>
-        <p class="secondary">
+        <p class="footer-text">
           After the flood
           <br>140–142 St John St, London, EC1V 4UB, UK
           <br>info@aftertheflood.com
