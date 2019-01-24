@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="/assets/css/type.css" type="text/css">
+		<link rel="stylesheet" href="/assets/css/layout.css" type="text/css">
+		<title>After the Flood</title>
+	</head>
+	<body class="london-squared">
+
+		<div class="page">
+
+			<header>
+				<ul>
+					<li class="page-title"><a href="/">After the Flood</a></li>
+					<li><span class="highlight">London Squared</span> A visualization layout for London borough data</li>
+				</ul>
+			</header>
+
+
+			<div role="primary title" class="mini-site-title content">
+				<h1>
+					London Squared
+				</h1>
+			</div>
+
+			<div role="main" class="content project">
+				
+				<div class="">
+					<p>
+						Data can be hard to grasp however visualising it can make comprehension faster. Sparklines (tiny charts in text, like this: <span class="sparks-standfirst">123{10,20,30,40,50,60,70,80,90,100}789</span>) are a useful tool, but creating them for the web has always required code and using them in word documents was previously impossible.
+					</p>
+					<p>
+						Sparks, now in its second release, is a family of 15 fonts (three variants in five weights each) that allows for the easy combination of text and visual data by removing the need for any technical know-how. By installing the Spark font you can use them immediately without the need for custom code.
+					</p>
+					<p>
+						A D3  module to support the creation of <a href="https://aftertheflood.com/projects/future-cities-catapult/">London Squared</a> cartograms.
+					</p>
+				 
+					<ul>
+						<li><a href="/londonsquared/getting-started">Getting started</a></li>
+						<li><a href="/londonsquared/api">API documentation</a></li>
+					</ul>
+				</div>
+
+				<h2 class="full-width">Examples</h2>
+			
+
+
+
+
+
+				<div class="grid-container">
+
+					<div>
+						<h3><a href="">Putting a map on a page</a></h3>
+						<img src="assets/images/example1.png" width="100%" />
+						<ul>
+							<li><a href="">Code</a></li>
+							<li><a href="https://beta.observablehq.com/@tomgp/london-squared">Observable notebook</a></li>
+						</ul>
+					</div>
+				
+					<div>
+						<h3><a href="/londonsquared/site/london-borough-population-now.html">Single variable visualisation</a></h3>
+						<a href="/londonsquared/site/london-borough-population-now.html"><img src="assets/images/example2.png" width="100%" /></a>
+						<ul>
+							<li><a href="https://github.com/aftertheflood/londonsquared/blob/master/site/london-borough-population-now.html">Code</a></li>
+							<li><a href="https://beta.observablehq.com/@tomgp/london-squared-population-map">Observable notebook</a></li>
+						</ul>
+					</div>
+					
+					<div>
+						<h3><a href="http://aftertheflood.github.io/londonsquared/site/london-pcn-data.html">A multi-variable visualisation</a></h3> 
+						<a href="/londonsquared/site/london-borough-population-now.html"><img src="assets/images/example4.png" width="100%" /></a>
+						<ul>
+							<li><a href="https://github.com/aftertheflood/londonsquared/blob/master/site/london-pcn-data.html">Code</a></li>
+							<li><a href="https://beta.observablehq.com/@tomgp/london-squared-penalty-charge-map">Observable notebook</a></li>
+						</ul>
+					</div>
+				
+					<div>
+						<h3><a href="/londonsquared/site/london-borough-population-timeline.html">Time series visualization</a></h3>
+						<a href="/londonsquared/site/london-borough-population-timeline.html"><img src="assets/images/example3.png" width="100%" /></a>
+						<ul>
+							<li><a href="https://github.com/aftertheflood/londonsquared/blob/master/site/london-borough-population-timeline.html">Code</a></li>
+							<li><a href="https://beta.observablehq.com/@tomgp/london-squared-population-timeseries">Observable notebook</a></li>
+						</ul>
+					</div>
+					
+					<div>
+						<h3><a href="http://aftertheflood.github.io/londonsquared/site/london-borough-population-interactive.html">Adding interaction</a></h3> 
+						<a href="/londonsquared/site/london-borough-population-interactive.html"><img src="assets/images/example5.png" width="100%" /></a>
+						<ul>
+							<li><a href="https://github.com/aftertheflood/londonsquared/blob/master/site/london-borough-population-interactive.html">Code</a></li>
+						</ul>
+					</div>
+					
+					<div>
+						<h3><a href="https://beta.observablehq.com/@tomgp/london-squared-greenspace-map">Area and greenspace</a></h3> 
+						<a href="https://beta.observablehq.com/@tomgp/london-squared-greenspace-map"><img src="assets/images/example6.png" width="100%" /></a>
+						<ul>
+							<li><a href="https://beta.observablehq.com/@tomgp/london-squared-greenspace-map">Observable notebook</a></li>
+						</ul>
+					</div>
+
+			 </div>  <!-- end grid-container -->
+
+			 <hr>
+
+			 <p><a href="https://beta.observablehq.com/collection/@tomgp/london-squared">All Observable notebooks</a></p>
+				
+				<div class="full-width">
+					<h2>Developing</h2>
+					For local development you can use these npm scripts
+					<ul>
+						<li><pre>npm run build</pre> uses <a href="https://webpack.js.org">webpack</a> to compile the code in the <i>src</i> directory outputting to the _dist_ directory.</li>
+						<li><pre>npm run serve</pre> runs <a href="https://browsersync.io">browser-sync</a> on the <i>site</i> directory.</li>
+					</ul>
+				</div>
+
+			</div> <!-- end of .content -->
+
+			<footer>
+				<p>
+					After the flood
+					<br>140–142 St John St, London, EC1V 4UB, UK
+					<br>info@aftertheflood.com
+					<br><a href="href=https://twitter.com/AftertheFloodco">@Afterthefloodco</a>
+					<br>Registered in England and Wales as After the flood Limited. 7792366
+				</p>
+			</footer>
+		
+		</div> <!-- end of .page -->
+
+	</body>
+</html>

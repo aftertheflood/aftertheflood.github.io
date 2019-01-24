@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/assets/css/type.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/layout.css" type="text/css">
+    <title>After the Flood</title>
+  </head>
+  <body class="sparks">
+
+    <div class="page">
+
+        <header>
+          <ul>
+            <li class="page-title"><a href="/">After the Flood</a></li>
+            <li><span class="highlight">London Squared</span> A visualization layout for London borough data</li>
+          </ul>
+        </header>
+
+
+        <div role="primary title" class="mini-site-title content">
+          <h1>
+            Sparks
+          </h1>
+        </div>
+
+
+        <div role="main" class="content project">
+
+          <hr class="no-top-border">
+
+          <img class="full-width" src="https://aftertheflood.com/wp-content/uploads/2018/01/spark-typing-v2.gif" alt="Sparks GIF" />
+
+          <hr class="no-top-border">
+
+
+          <p>Sparks is a typeface for creating sparklines in text. It uses OpenType’s <em>contextual alternates</em> feature to perform simple replacement operations on numbers. It works on both the desktop and the web where it works without Javascript, though it does require a modern-ish web browser that can make use of OpenType features in text. At the moment it is compatible with Microsoft Word (2010 and later), Apple Pages, Adobe Creative Cloud applications, Chrome 33+, Safari 6+, Firefox 4+, and Internet Explorer 10+. (See: http://stateofwebtype.com/ for a fuller listing of browser compatibility.)</p>
+
+          <p>There are currently three variations: <strong>bars, dots, and dot-lines</strong> (line charts with tiny dots at the joints between segments), each of which has five weight variants.</p>
+
+          <p>All three of the variants use a fixed scale of 0–100. If your data only goes to e.g., 10, you’ll need to first translate your numbers to be out of 100, otherwise you’ll end up rendering an especially tiny chart.</p>
+
+          <p>The contextual alternates feature (<code class="highlighter-rouge">calt</code>) is baked into OpenType and Sparks simply leverages this feature in an unconventional way. It takes strings like <code class="highlighter-rouge">123{30,60,90}456</code> and outputs a sparkline. The example of <code class="highlighter-rouge">123{30,60,90}456</code> would have with three datapoints of 30, 60, and 90 framed by 123 and 456. Spaces after the commas will prevent the numbers from being transformed. Numbers outside of the brackets are never transformed.</p>
+
+          <p>See it working on our <a href="http://aftertheflood.com/projects/atf-spark">website</a>.</p>
+
+          <h2 id="using-sparks">Using Sparks</h2>
+
+          <h3 id="on-the-web">On the web</h3>
+
+          <p>When using the Sparks webfonts in a browser, you <em>should</em> enable the <code class="highlighter-rouge">calt</code> feature in your CSS, however it seems that these days <code class="highlighter-rouge">calt</code> is enabled by default in some browsers and you don’t need to do anything to make it work other than assign the font to your text. Still, better safe than sorry. The CSS to explicitly turn on the feature looks like this (example pilfered from https://helpx.adobe.com/typekit/using/open-type-syntax.html#calt):</p>
+
+          <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.yourClass {
+            font-variant-ligatures: contextual;
+            -moz-font-feature-settings: "calt";
+            -webkit-font-feature-settings: "calt";
+            font-feature-settings: "calt";
+          }
+          </code></pre></div></div>
+
+          <p>For more on this see the example code in the <strong>tests</strong> folder.</p>
+
+          <h3 id="in-ms-word">In MS Word</h3>
+
+          <p>If you are using MS Word you need to enable the “Use Contextual Alternates” feature for it to be able to draw the sparklines. You can do that simply by heading to “Format &gt; Font &gt; Advanced” and enabling it.</p>
+
+          <h3 id="in-adobe-illustrator">In Adobe Illustrator</h3>
+
+          <p>Turn on contextual alternates from the OpenType panel menu (Window &gt; Type &gt; OpenType). Here’s a <a href="https://user-images.githubusercontent.com/771600/30393566-7ebc3a96-98b8-11e7-9b18-34cf6b1550c4.png">screenshot</a>.</p>
+
+          <h3 id="in-adobe-indesign">In Adobe InDesign</h3>
+
+          <p>Sometimes contextual alternates are activated by default and sometimes they are not. We have no idea why. Use the OpenType menu to make sure they are turned on, which can be found in the options menu of the character palette (Character &gt; Options &gt; OpenType &gt; Contextual Alternates). Here’s a <a href="https://github.com/aftertheflood/sparks/documentation/indesign-contextual-alternates.png">screenshot</a>.</p>
+
+          <h2 id="how-it-works-the-opentype-code">How it works: the OpenType code</h2>
+
+          <p>Inside the font files the code that powers the replacement operation for the <strong>bar</strong> and <strong>dot</strong> variations works like this:</p>
+
+          <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>feature calt {
+
+            ignore sub zero' comma space;
+            sub braceleft' zero' braceright' by chart.000;
+            sub braceleft' zero' comma' by chart.000;
+            sub zero' comma' by chart.000;
+            sub zero' braceright' by chart.000;
+
+          } calt;
+
+          </code></pre></div></div>
+
+          <p>while the code for the <strong>dot-line</strong> variation is a bit more complicated, and looks sort of like this:</p>
+
+          <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@theDots [ dot.000 dot.001 ... dot.100 ];
+          @linesTo000 [ line.000.000 line.001.000 ... line.100.000 ];
+          # 100 more those classes, one for each possible position.
+
+          feature calt {
+
+            lookup dotsIgnore {
+              ignore sub zero' comma space;
+              # ... repeat for all 100 other numbers.
+            } dotsIgnore;
+
+            lookup DotsSolo {
+              sub braceleft' zero' braceright' by dot.100;
+              # ... repeat for all 100 other numbers.
+            } dotsSolo;
+
+            lookup dotsInitial {
+              sub braceleft' zero' comma' by dot.000;
+              # ... repeat for all 100 other numbers.
+            } dotsInitial;
+
+            lookup dotsMiddle {
+              sub zero' comma' by dot.000;
+              # ... repeat for all 100 other numbers.
+            } dotsMiddle;
+
+            lookup dotsFinal {
+              sub zero' braceright' by dot.000;
+              # ... repeat for all 100 other numbers.
+            } dotsFinal;
+
+            lookup linesAll {
+              sub @theDots' dot.000 by @linesTo000;
+              # ... repeat for all 100 other positions.
+            } linesAll;
+
+          } calt;
+
+          </code></pre></div></div>
+
+          <p>In theory the <strong>dot-line</strong> variation could be just like the <strong>bar</strong> and <strong>dot</strong> variations with only a single round of glyph substitutions, however because the <strong>dot-line</strong> fonts are plotting connections rather than single positions you would end up with <em>many</em> lines of code (almost 11k). Fine in the abstract, but it turns out that OpenType has a limit for how many lines of code can be in a single lookup table (around 3k – everything in a lookup table has to fit into 16 bits, because reasons), so compilation fails. There are definitely many ways around this, but it is a headache. The <strong>dot-line</strong> version sorts the problem by</p>
+
+          <ul>
+            <li>first setting up classes for both the dots and the lines</li>
+            <li>then substituting numbers for the appropriate dot glyph (just like in the <strong>bar</strong> and <strong>dot</strong> variants, however here the sequence is a lot more important)</li>
+            <li>and finally substituting the first of every pair of dots with the appropriate line</li>
+          </ul>
+
+          <p>This works because OpenType substitution is a linear process in which each rule reads the output of the previous rule, so you can chain substitutions. (<em>So</em> many caveats to that statement, but that’s a story for another day. For more information on how weird OpenType glyph substitution is check out <a href="http://ansuz.sooke.bc.ca/entry/131">this amazing blogpost.</a>)</p>
+
+          <hr />
+
+          <h3 id="about-us">About us</h3>
+          <p><a href="http://aftertheflood.com/">After the flood</a> is a design consultancy based in London. We work with global corporations like Google, Nikkei and Ford to solve business problems that combine our understanding of AI and data as a material with unique user insight. Our consulting model means guaranteed access to our top team. Our approach is user-centred and lean, showing progress to clients and working with a variety of expert partners.</p>
+
+          <h3 id="license">License</h3>
+          <p>Sparks has been distributed under the <a href="https://github.com/aftertheflood/spark/blob/master/LICENSE">SIL Open Font License</a>.</p>
+
+
+        </div> <!-- end of .content -->
+
+        <footer>
+          <p>
+            After the flood
+            <br>140–142 St John St, London, EC1V 4UB, UK
+            <br>info@aftertheflood.com
+            <br><a href="href=https://twitter.com/AftertheFloodco">@Afterthefloodco</a>
+            <br>Registered in England and Wales as After the flood Limited. 7792366
+          </p>
+        </footer>
+      
+      </div> <!-- end of .page -->
+    
+  </body>
+</html>
