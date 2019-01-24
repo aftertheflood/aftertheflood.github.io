@@ -3,89 +3,221 @@ BASICS
 ======================================================================================= */
 
 body {
-	color: #ddd;
+	color: #888;
 	font-family: Graphik, Helvetica, Arial, sans-serif;
 	text-rendering: optimizeLegibility;
 	font-variant-ligatures: common-ligatures;
 	font-kerning: normal;
-	font-size: 24px;
-	line-height: 1.3em;
+	font-size: 16px;
+	line-height: 1.5em;
 	letter-spacing: 0.005em;
 }
 
-h1, 
+@media only screen and (min-width: 600px) {body {font-size: 21px;}}
+
+h1 {
+	/* text-transform: uppercase; */
+	font-size: 64px;
+	font-weight: 800;
+	letter-spacing: -0.04em;
+	padding: 0;
+	margin: 0.65em 0 0.6em 0;	
+	color: #ff3557;
+	text-shadow: 1px 0px 0px #b41530,
+	2px 0px 0px #b41530,
+	3px 0px 0px #b41530,
+	4px 0px 0px #b41530,
+	5px 0px 0px #b41530,
+	6px 0px 0px #b41530,
+	7px 0px 0px #b41530,
+	8px 0px 0px #b41530,
+	9px 0px 0px #b41530,
+	10px 0px 0px #b41530,
+	11px 0px 0px #b41530,
+	12px 0px 0px #b41530,
+	13px 0px 0px #b41530,
+	14px 0px 0px #b41530,
+	15px 0px 0px #b41530,
+	16px 0px 0px #b41530,
+	17px 0px 0px #b41530,
+	18px 0px 0px #b41530,
+	19px 0px 0px #b41530,
+	20px 0px 0px #b41530,
+	21px 0px 0px #b41530,
+	22px 0px 0px #b41530,
+	23px 0px 0px #b41530,
+	24px 0px 0px #b41530,
+	25px 0px 0px #b41530,
+	26px 0px 0px #b41530,
+	27px 0px 0px #b41530,
+	28px 0px 0px #b41530,
+	29px 0px 0px #b41530,
+	30px 0px 0px #b41530,
+	31px 0px 0px #b41530,
+	32px 0px 0px #b41530,
+	33px 0px 0px #b41530,
+	34px 0px 0px #b41530,
+	35px 0px 0px #b41530,
+	36px 0px 0px #b41530,
+	37px 0px 0px #b41530,
+	38px 0px 0px #b41530,
+	39px 0px 0px #b41530,
+	40px 0px 0px #b41530;
+}
+
+h2 {
+	font-size: 21px;
+	font-weight: 800;
+	color: #ff3557;
+	border-top: 1px solid #ff3557;
+}
+
+h3 {
+	font-size: 21px;
+	font-weight: 800;
+	color: #000;
+}
+
+h3 a:link, 
+h3 a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+p {
+	/* font-size: 21px; */
+	/* line-height: 1.3em; */
+	/* font-family: Graphik, Helvetica, Arial, sans-serif; */
+	letter-spacing: 0.005em;
+	color: #888;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+li::before {
+	content: "— ";
+}
+
+a, 
+a:visited {
+	color: #888;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+code {
+	font-size: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 400;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ddd;
+	margin: 3em 0 1.5em 0;
+	padding: 0;
+}
+
+hr.no-top-border {
+	margin-top: 1.5em;
+}
+
+
+
+
+
+
+/* Page global nav.
+--------------------------------------------------------------------------------------- */
+
+header,
 footer p {
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
 	letter-spacing: 0.04em;
-	color: #ddd;
+	line-height: 1.5em;
 }
 
-.highlight {
-	color: #fff;
+header,
+code {
+	color: #888;
 }
 
-/* 
-.secondary {
-	color: #ddd;
-} */
-
-.header-secondary {
-	margin-left: 30px;
+header {
+	margin: 0;
+	padding: 0;
 }
 
-h2 {
-	font-size: 24px;
-	font-weight: 800;
-	color: #fff;
-	/* letter-spacing: -0.01em; */
-}
-
-h3 {
-	font-size: 24px;
-	font-weight: 400;
-	color: #fff;
-	/* letter-spacing: -0.01em; */
-}
-
-p {
-	font-size: 24px;
-	line-height: 1.3em;
-	font-family: Graphik, Helvetica, Arial, sans-serif;
-	letter-spacing: 0.005em;
-	color: #ddd;
-}
-
-a, a:visited {
-	color: #eee;
+header a,
+header a:visited {
+	color: #ff3557;
 	text-decoration: none;
-	text-shadow: 1px 1px 1px #bbb,
-	2px 2px 2px #bbb,
-	3px 3px 4px #bbb,
-	4px 4px 4px #bbb,
-	5px 5px 5px #bbb;
+	text-shadow: none;
+	box-shadow: none;
 }
 
-a:hover {
-	color: rgb(255, 251, 38);
-	text-shadow: 1px 1px 3px rgb(0, 0, 0),
-		3px 3px 6px rgb(0, 0, 0),
-		5px 5px 9px rgb(0, 0, 0),
-		7px 7px 12px rgb(0, 0, 0),
-		9px 9px 15px rgb(0, 0, 0);
-	transition: color 1s, text-shadow 1s;
+header a:hover {
+	color: #000;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+header ul {
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+}
+
+header li {
+	display: block;
+	padding: 0;
+}
+
+header li::before {
+	content: none;
+}
+
+@media only screen and (min-width: 600px) {
+	header li {
+		display: inline;
+		padding: 0 1em 0 0;
+	}
+}
+
+
+
+
+
+
+/* The footer
+--------------------------------------------------------------------------------------- */
+
+footer p {
+	color: #fff;
 }
 
 footer a,
 footer a:visited {
-	color: #ddd;
+	color: #fff;
 	text-shadow: none;
+	box-shadow: none;
 }
 
 footer a:hover {
-	color: rgb(255, 251, 38);
+	color: #000;
 	text-shadow: none;
+	box-shadow: none;
 }
 
 
@@ -96,16 +228,82 @@ footer a:hover {
 /* Reusable components
 --------------------------------------------------------------------------------------- */
 
+.project-title {color: #ff3557;}
+
+.content h2 {margin-top: 3em;}
+.content h3 {padding-top: 1em;}
+
+.project p, 
+.project ul {
+	max-width: 800px;
+	/* line-height: 1.4em; */
+}
+
+.project h3 {margin-top: 2em;}
+@media only screen and (min-width: 600px) {.project h3 {margin-top: 0;}}
+
+
+.project p a, 
+.project p a:visited,
+.project li a, 
+.project li a:visited {
+	color: #888;
+	text-decoration: none;
+	box-shadow: inset 0 -1px 0 0 #ddd;
+	transition: color 0.6s, box-shadow 0.3s;
+}
+
+.project p a:hover,
+.project li a:hover {
+	color: #000;
+	text-decoration: none;
+	box-shadow: inset 0 -100px 0 0 #ff3557;
+	transition: color 0.3s, box-shadow 0.6s;
+}
+
+.project h3 a, 
+.project h3 a:visited {
+	color: #000;
+	text-decoration: none;
+	box-shadow: inset 0 -1px 0 0 #ddd;
+	transition: color 0.6s, box-shadow 0.3s;
+}
+
+.project h3 a:hover {
+	color: #000;
+	text-decoration: none;
+	box-shadow: inset 0 -100px 0 0 #ff3557;
+	transition: color 0.3s, box-shadow 0.6s;
+}
+
+.project a img {
+	opacity: 1;
+	filter: none;
+	transition: opacity 0.5s, filter 0.5s;
+}
+
+.project a img:hover {
+	opacity: 0.8;
+	filter: grayscale(50%);
+	transition: opacity 0.5s, filter 0.5s;
+}
+
+
+
+
+.highlight {color: #000;}
+
 .highlight a, 
 .highlight a:visited {
-	color: #fff;
+	color: #ff3557;
 	text-decoration: none;
-	text-shadow: none;
+	box-shadow: none;
 }
 
 .highlight a:hover {
-	color: rgb(255, 251, 38);
+	color: #000;
 	text-shadow: none;
+	box-shadow: none;
 }
 
 
@@ -122,68 +320,296 @@ PAGES
 ======================================================================================= */
 
 
-
-
 /* TOC page 
 --------------------------------------------------------------------------------------- */
 
 .toc-list {
 	/* background: yellow; */
 	/* border-top: 1px solid #fff; */
-	color: #fff;
+	color: #888;
 }
 
 .toc-list h2, 
 .toc-list p {
-	font-size: 90px;
+	font-size: 36px;
 	line-height: 1.1em;
-	/* max-width: 870px; */
 }
 
 .toc-list h2 {
 	font-weight: 800;
 	letter-spacing: -0.03em;
 	padding: 0;
-	margin: 0.15em 0 0 0;
+	margin: 0;
+	border-top: none;
 }
 
 .toc-list p {
 	font-weight: 400;
 	letter-spacing: -0.04em;
 	padding: 0;
-	margin: 0 0 0.75em 0;
-	color: #fff;
+	margin: 0 0 0.6em 0;
+	color: #000;
 }
 
+@media only screen and (min-width: 600px) {
+	h1, 
+	.toc-list h2, 
+	.toc-list p {
+		font-size: 64px;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	h1, 
+	.toc-list h2, 
+	.toc-list p {
+		font-size: 90px;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+	h1, 
+	.toc-list h2, 
+	.toc-list p {
+		font-size: 100px;
+		max-width: 1400px;
+	}
+}
+
+/* 
 .toc-list a, .toc-list a:visited {
-	color: #fff;
+	color: #000;
 	text-decoration: none;
-	text-shadow: 1px 1px 1px #bbb,
-	2px 2px 2px #bbb,
-	3px 3px 4px #bbb,
-	4px 4px 4px #bbb,
-	5px 5px 5px #bbb,
-	6px 6px 6px #bbb,
-	7px 7px 7px #bbb,
-	8px 8px 8px #bbb,
-	9px 9px 9px #bbb,
-	10px 10px 10px #bbb;
+	box-shadow: inset 0 -6px 0 0 #ccc;
 }
 
 .toc-list a:hover {
-	color: rgb(255, 251, 38);
-	text-shadow: 1px 1px 3px rgb(0, 0, 0),
-		3px 3px 6px rgb(0, 0, 0),
-		5px 5px 9px rgb(0, 0, 0),
-		7px 7px 12px rgb(0, 0, 0),
-		9px 9px 15px rgb(0, 0, 0),
-		11px 11px 18px rgb(0, 0, 0),
-		13px 13px 21px rgb(0, 0, 0),
-		15px 15px 24px rgb(0, 0, 0),
-		17px 17px 27px rgb(0, 0, 0),
-		19px 19px 30px rgb(0, 0, 0);
-	transition: color 1s, text-shadow 1s;
+	color: #000;
+	box-shadow: inset 0 -100px 0 0 #f52d50;
+	transition: color 0.5s, box-shadow 0.5s;
+} */
+
+/* Adjust the underline for other sizes of screen */
+/* @media only screen and (min-width: 600px)  {.toc-list a, .toc-list a:visited {box-shadow: inset 0 -11px 0 0 #ccc;}}
+@media only screen and (min-width: 900px)  {.toc-list a, .toc-list a:visited {box-shadow: inset 0 -16px 0 0 #ccc;}}
+@media only screen and (min-width: 1400px) {.toc-list a, .toc-list a:visited {box-shadow: inset 0 -17px 0 0 #ccc;}} */
+
+/* .toc-list a, .toc-list a:visited {
+	color: #f52d50;
+	text-decoration: none;
+	text-shadow: 1px 1px 3px #f52d50,
+	2px 2px 6px #e21134,
+	3px 3px 9px #b41530,
+	4px 4px 12px #b41530,
+	5px 5px 15px #b41530,
+	6px 6px 18px #b41530,
+	7px 7px 21px #b41530,
+	8px 8px 24px #b41530,
+	9px 9px 27px #b41530,
+	10px 10px 30px #b41530;
 }
+
+.toc-list a:hover {
+	color: #ff3557;
+	text-shadow: 1px 1px 3px #9e1028,
+	3px 3px 6px #9e1028,
+	5px 5px 9px #9e1028,
+	7px 7px 12px #9e1028,
+	9px 9px 15px #9e1028,
+	11px 11px 18px #9e1028,
+	13px 13px 21px #9e1028,
+	15px 15px 24px #9e1028,
+	17px 17px 27px #9e1028,
+	19px 19px 30px #9e1028;
+	transition: color 0.6s, text-shadow 1s;
+} */
+
+.toc-list a, .toc-list a:visited {
+	color: #000;
+	text-decoration: none;
+	border-bottom: none;
+	box-shadow: none;
+	text-shadow: 0px 1px 0px #ccc,
+		0px 2px 0px #ccc,
+		0px 3px 0px #ccc,
+		0px 4px 0px #ccc,
+		0px 5px 0px #ccc,
+		0px 6px 0px #ccc,
+		0px 7px 0px #ccc,
+		0px 8px 0px #ccc,
+		0px 9px 0px #ccc,
+		0px 10px 0px #ccc,
+		0px 11px 0px #ccc,
+		0px 12px 0px #ccc,
+		0px 13px 0px #ccc,
+		0px 14px 0px #ccc,
+		0px 15px 0px #ccc,
+		0px 16px 0px #ccc,
+		0px 17px 0px #ccc,
+		0px 18px 0px #ccc,
+		0px 19px 0px #ccc,
+		0px 20px 0px #ccc,
+		0px 21px 0px #ccc,
+		0px 22px 0px #ccc,
+		0px 23px 0px #ccc,
+		0px 24px 0px #ccc,
+		0px 25px 0px #ccc,
+		0px 26px 0px #ccc,
+		0px 27px 0px #ccc,
+		0px 28px 0px #ccc,
+		0px 29px 0px #ccc,
+		0px 30px 0px #ccc,
+		0px 31px 0px #ccc,
+		0px 32px 0px #ccc,
+		0px 33px 0px #ccc,
+		0px 34px 0px #ccc,
+		0px 35px 0px #ccc,
+		0px 36px 0px #ccc,
+		0px 37px 0px #ccc,
+		0px 38px 0px #ccc,
+		0px 39px 0px #ccc,
+		0px 40px 0px #ccc;
+	transition: color 0.4s, text-shadow 0.7s;
+}
+
+/* 
+.toc-list a, .toc-list a:visited {
+	color: #000;
+	text-decoration: none;
+	border-bottom: none;
+	box-shadow: none;
+	text-shadow: 0px 1px 0px #ccc,
+		0px 2px 0px #cdcdcd,
+		0px 3px 0px #cecece,
+		0px 4px 0px #cfcfcf,
+		0px 5px 0px #d1d1d1,
+		0px 6px 0px #d2d2d2,
+		0px 7px 0px #d3d3d3,
+		0px 8px 0px #d5d5d5,
+		0px 9px 0px #d6d6d6,
+		0px 10px 0px #d7d7d7,
+		0px 11px 0px #d9d9d9,
+		0px 12px 0px #dadada,
+		0px 13px 0px #dbdbdb,
+		0px 14px 0px #dddddd,
+		0px 15px 0px #dedede,
+		0px 16px 0px #dfdfdf,
+		0px 17px 0px #e0e0e0,
+		0px 18px 0px #e2e2e2,
+		0px 19px 0px #e3e3e3,
+		0px 20px 0px #e4e4e4,
+		0px 21px 0px #e6e6e6,
+		0px 22px 0px #e7e7e7,
+		0px 23px 0px #e8e8e8,
+		0px 24px 0px #e9e9e9,
+		0px 25px 0px #ebebeb,
+		0px 26px 0px #ececec,
+		0px 27px 0px #eeeeee,
+		0px 28px 0px #efefef,
+		0px 29px 0px #f0f0f0,
+		0px 30px 0px #f1f1f1,
+		0px 31px 0px #f3f3f3,
+		0px 32px 0px #f4f4f4,
+		0px 33px 0px #f5f5f5,
+		0px 34px 0px #f7f7f7,
+		0px 35px 0px #f8f8f8,
+		0px 36px 0px #f9f9f9,
+		0px 37px 0px #fbfbfb,
+		0px 38px 0px #fcfcfc,
+		0px 39px 0px #fdfdfd,
+		0px 40px 0px #fff;
+	transition: color 0.2s ease, text-shadow 0.4s ease;
+} */
+
+.toc-list a:hover {
+	color: #ff3557;
+	text-shadow: 0px -1px 0px #b41530,
+		0px -2px 0px #b41530,
+		0px -3px 0px #b41530,
+		0px -4px 0px #b41530,
+		0px -5px 0px #b41530,
+		0px -6px 0px #b41530,
+		0px -7px 0px #b41530,
+		0px -8px 0px #b41530,
+		0px -9px 0px #b41530,
+		0px -10px 0px #b41530,
+		0px -11px 0px #b41530,
+		0px -12px 0px #b41530,
+		0px -13px 0px #b41530,
+		0px -14px 0px #b41530,
+		0px -15px 0px #b41530,
+		0px -16px 0px #b41530,
+		0px -17px 0px #b41530,
+		0px -18px 0px #b41530,
+		0px -19px 0px #b41530,
+		0px -20px 0px #b41530,
+		0px -21px 0px #b41530,
+		0px -22px 0px #b41530,
+		0px -23px 0px #b41530,
+		0px -24px 0px #b41530,
+		0px -25px 0px #b41530,
+		0px -26px 0px #b41530,
+		0px -27px 0px #b41530,
+		0px -28px 0px #b41530,
+		0px -29px 0px #b41530,
+		0px -30px 0px #b41530,
+		0px -31px 0px #b41530,
+		0px -32px 0px #b41530,
+		0px -33px 0px #b41530,
+		0px -34px 0px #b41530,
+		0px -35px 0px #b41530,
+		0px -36px 0px #b41530,
+		0px -37px 0px #b41530,
+		0px -38px 0px #b41530,
+		0px -39px 0px #b41530,
+		0px -40px 0px #b41530;
+	transition: color 0.4s, text-shadow 0.7s;
+}
+
+/* .toc-list a:hover {
+	color: #ff3557;
+	text-shadow: 1px 0px 0px #b41530,
+		2px 0px 0px #b41530,
+		3px 0px 0px #b41530,
+		4px 0px 0px #b41530,
+		5px 0px 0px #b41530,
+		6px 0px 0px #b41530,
+		7px 0px 0px #b41530,
+		8px 0px 0px #b41530,
+		9px 0px 0px #b41530,
+		10px 0px 0px #b41530,
+		11px 0px 0px #b41530,
+		12px 0px 0px #b41530,
+		13px 0px 0px #b41530,
+		14px 0px 0px #b41530,
+		15px 0px 0px #b41530,
+		16px 0px 0px #b41530,
+		17px 0px 0px #b41530,
+		18px 0px 0px #b41530,
+		19px 0px 0px #b41530,
+		20px 0px 0px #b41530,
+		21px 0px 0px #b41530,
+		22px 0px 0px #b41530,
+		23px 0px 0px #b41530,
+		24px 0px 0px #b41530,
+		25px 0px 0px #b41530,
+		26px 0px 0px #b41530,
+		27px 0px 0px #b41530,
+		28px 0px 0px #b41530,
+		29px 0px 0px #b41530,
+		30px 0px 0px #b41530,
+		31px 0px 0px #b41530,
+		32px 0px 0px #b41530,
+		33px 0px 0px #b41530,
+		34px 0px 0px #b41530,
+		35px 0px 0px #b41530,
+		36px 0px 0px #b41530,
+		37px 0px 0px #b41530,
+		38px 0px 0px #b41530,
+		39px 0px 0px #b41530,
+		40px 0px 0px #b41530;
+	transition: color 0.5s ease, text-shadow 1s ease;
+} */
 
 
 

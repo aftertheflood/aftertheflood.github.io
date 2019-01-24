@@ -8,12 +8,24 @@
   </head>
   <body>
     <div class="page">
+
       <header>
-        <h1><span class="highlight"><a href="/">{{ site.name }}</a></span> <span class="header-secondary">{{ site.description }}</span></h1>
+        <ul>
+          <li class="page-title"><a href="/">{{ site.name }}</a></li>
+          <li>{{ site.description }}</li>
+        </ul>
       </header>
+
+      <div role="primary title" class="mini-site-title content">
+        <h1>
+          Tools!
+        </h1>
+      </div>
+
       <div role="main" class="content">{{ content }}</div>
+
       <footer>
-        <p class="footer-text">
+        <p>
           After the flood
           <br>140–142 St John St, London, EC1V 4UB, UK
           <br>info@aftertheflood.com
@@ -21,6 +33,7 @@
           <br>Registered in England and Wales as After the flood Limited. 7792366
         </p>
       </footer>
+
     </div> <!-- end .page -->
   </body>
 </html>
