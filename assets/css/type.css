@@ -42,9 +42,7 @@ h1 {
 	17px 0px 0px #b41530,
 	18px 0px 0px #b41530,
 	19px 0px 0px #b41530,
-	20px 0px 0px #b41530,
-	21px 0px 0px #b41530,
-	22px 0px 0px #b41530;
+	20px 0px 0px #b41530;
 }
 
 h2 {
@@ -380,9 +378,7 @@ PAGES
 		0px -17px 0px #ccc,
 		0px -18px 0px #ccc,
 		0px -19px 0px #ccc,
-		0px -20px 0px #ccc,
-		0px -21px 0px #ccc,
-		0px -22px 0px #ccc;
+		0px -20px 0px #ccc;
 	transition: color 0.4s, text-shadow 0.7s;
 }
 
@@ -410,9 +406,7 @@ PAGES
 		17px 0px 0px #b41530,
 		18px 0px 0px #b41530,
 		19px 0px 0px #b41530,
-		20px 0px 0px #b41530,
-		21px 0px 0px #b41530,
-		22px 0px 0px #b41530;
+		20px 0px 0px #b41530;
 	transition: color 0.4s, text-shadow 0.7s;
 }
 
