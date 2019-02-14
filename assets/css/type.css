@@ -93,22 +93,21 @@ a:hover {
 	text-decoration: none;
 }
 
-code {
+code, pre {
 	font-size: 15px;
 	font-family: 'Courier New', Courier, monospace;
 	font-weight: 400;
 	color: #333;
+}
+@media only screen and (min-width: 600px) {code, pre {font-size: 20px;}}
+
+code {
 	background-color: #f3f3f3;
 	padding: 3px 5px 1px 5px;
 	border: 1px;
 	border-radius: 5px;
 }
-@media only screen and (min-width: 600px) {
-	code {
-		font-size: 20px;
-		padding: 2px 7px 2px 7px;
-	}
-}
+@media only screen and (min-width: 600px) {code {padding: 2px 7px 2px 7px;}}
 
 
 pre {
@@ -127,7 +126,6 @@ pre {
 		padding: 12px 20px;
 	}
 }
-
 
 pre code {
 	background-color: transparent;
