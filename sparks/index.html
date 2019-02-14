@@ -84,7 +84,6 @@
             sub zero' braceright' by chart.000;
 
           } calt;
-
           </code></pre></div></div>
 
           <p>while the code for the <strong>dot-line</strong> variation is a bit more complicated, and looks sort of like this:</p>
@@ -126,7 +125,6 @@
             } linesAll;
 
           } calt;
-
           </code></pre></div></div>
 
           <p>In theory the <strong>dot-line</strong> variation could be just like the <strong>bar</strong> and <strong>dot</strong> variations with only a single round of glyph substitutions, however because the <strong>dot-line</strong> fonts are plotting connections rather than single positions you would end up with <em>many</em> lines of code (almost 11k). Fine in the abstract, but it turns out that OpenType has a limit for how many lines of code can be in a single lookup table (around 3k – everything in a lookup table has to fit into 16 bits, because reasons), so compilation fails. There are definitely many ways around this, but it is a headache. The <strong>dot-line</strong> version sorts the problem by</p>
