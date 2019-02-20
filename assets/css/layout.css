@@ -89,6 +89,8 @@ p img {
   .grid-container {
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
   }
 }
 
