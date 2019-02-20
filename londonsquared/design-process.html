@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/assets/css/type.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/syntax.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/layout.css" type="text/css">  
+
+<!--    <link rel="stylesheet" href="http://localhost:3000/assets/css/type.css" type="text/css">
+    <link rel="stylesheet" href="http://localhost:3000/assets/css/syntax.css" type="text/css">
+    <link rel="stylesheet" href="http://localhost:3000/assets/css/layout.css" type="text/css"> -->
+    <title>After The Flood</title>
+  </head>
+  <body>
+    <div class="page">
+      
+      <header>
+        <ul>
+          <li class="page-title"><a href="/">After the Flood</a></li>
+          <li>Making new services from data</li>
+        </ul>
+      </header>
+
+			<h1>London Squared</h1>
+
+      <div role="main" class="content project">
+      
+<p>A D3  module to support the creation of <a href="https://aftertheflood.com/projects/future-cities-catapult/">London Squared</a> cartograms.</p>
+
+<ul>
+  <li><a href="/londonsquared">Examples</a></li>
+  <li><a href="/londonsquared/getting-started">Getting started</a></li>
+  <li><a href="/londonsquared/api">API documentation</a></li>
+  <li><a href="https://www.github.com/aftertheflood/londonsquared">Code on github</a></li>
+</ul>
+
+<h2 id="the-thinking-behind-london-squared">The thinking behind London Squared</h2>
+
+<h3 id="future-cities-catapult">Future Cities Catapult</h3>
+<p><a href="https://futurecities.catapult.org.uk">Future Cities Catapult</a> has many programmes that require data analysis. London Squared came out of a partnership between us to develop product ideas that would help them and their network — anyone working in this field who wanted to create, use, and share data better. Key to this was the ability to compare data across the city’s 32 boroughs (33 if you include The City of London, not officially a borough). Unfortunately at the moment the only way of doing that spatially was to use a geographical map …</p>
+
+<h3 id="the-trouble-with-data-maps">The Trouble With Data Maps</h3>
+
+<p>Maps are excellent for navigating space, showing boundaries, landmarks, and location but lousy at imparting data. The visual impact of data shown in a spatial way is driven by the way areas of that space are divided. Low quantities seem higher if taking up more space. High qualities in lots of space dominate. Maps are uneven spaces – more developed areas tend to be smaller than rural areas. This creates an uneven ground on which to place figures – with important data finding no place to live.</p>
+
+<div>
+  <hr class="no-top-border" />
+  <img class="full-width" src="assets/images/london-collage.jpg" alt="a variety of maps showing data encoded as colour" />
+  <hr class="no-top-border" />
+</div>
+
+<p>During the product development work with Future Cities Catapult, it became clear that there was a need for a way to visual data across all boroughs that did not create a visual bias due to the relative size of individual boroughs.</p>
+
+<p>We needed a new, non-geographic system to plot data.</p>
+
+<h3 id="abstracting-the-city">Abstracting the City</h3>
+
+<p>How can a city be reshaped to allow for a more even presentation of data without obliterating the forms that make it a recognizable space?</p>
+
+<div class="grid-container">
+  <div>
+    <p><img src="/londonsquared/assets/images/abstraction-1.jpg" alt="a simple abstraction of london boroughs into squares" /></p>
+
+    <p>Having got the squares to work, we needed to bring some basic recognisability back to the map. We wanted a degree of familiarity for the first time viewer.</p>
+  </div>
+  <div>
+    <p><img src="/londonsquared/assets/images/abstraction-2.jpg" alt="a map showing the boroughs and the course of the Thames through them" /></p>
+
+    <p>London’s most recognisable geographic feature is the River Thames. We started to restyle it to fit between the squares, choosing which of it’s curves were most iconic.</p>
+  </div>
+  <div>
+    <p><img src="/londonsquared/assets/images/abstraction-3.jpg" alt="an illustration of the Thames showing how only a few features are required to render its shape recognisable" /></p>
+
+    <p>Our first idea was to just have it running through the middle as an illustrative element, but this seemed clumsy and would interrupt the eye as it ‘read the city’.</p>
+  </div>
+  <div>
+    <p><img src="/londonsquared/assets/images/abstraction-4.jpg" alt="the finished design" /></p>
+
+    <p>Instead, we put the city back together, forcing it to give way to the key curves of the Thames – just as in real life. As a shape this also gave some poetry to the rational grid.</p>
+  </div>
+</div>
+
+<h3 id="the-square-unit">The Square Unit</h3>
+
+<p>Squares have the added benefit of being able to contain more data. Unlike circles, there are enough options for spatial significance in a square – top, bottom, left, right. Squares have space to allow data to be separate or connected to other data. The squares are also a usefully small module that can be shared individually when needed, and because of their regularised and bite-size scale, they work well on small screens.</p>
+
+<p><img src="/londonsquared/assets/images/square-unit.jpg" alt="a set of square data visualizations" /></p>
+
+<p>The names of the boroughs have been abbreviated and vowels removed for maximum recognition and efficiency. This function needs to allow first time users to orient themselves as well as regular viewers to remind themselves and not have an obstructed view.</p>
+
+<h3 id="the-london-squared-map-version-10">The London Squared Map, Version 1.0</h3>
+
+<p>The most basic map allows for a choropleth, or shaded cells, to show data. There has been minimal shuffling of the – and the placement of the river finishes this off economically. The basic map shows one set of data, but there are other possibilities for combining display types.</p>
+
+<p><img src="/londonsquared/assets/images/london-squared-1.jpg" alt="the London Squared cartogram layout as used to visualise a data set" /></p>
+
+<div class="grid-container">
+  <div>
+
+    <p><img src="/londonsquared/assets/images/london-squared-2.jpg" alt="bar charts on the London Squared layout" /></p>
+
+    <p>Bar charts are tricky to use in this space, but not impossible – and much easier than with a geographically accurate map!</p>
+
+  </div>
+  <div>
+
+    <p><img src="/londonsquared/assets/images/london-squared-3.jpg" alt="line charts on the London Squared layout" /></p>
+
+    <p>Line charts can be mapped across the centre of the grid units. The river is an obstacle, but if the y-axis is limited to just the middle 60% of the squares there aren’t any issues.</p>
+
+  </div>
+  <div>
+
+    <p><img src="/londonsquared/assets/images/london-squared-4.jpg" alt="circles on the London Squared layout" /></p>
+
+    <p>Dots can be used to visualise quantities, and the use of colour multiplication lets us stack up sets of dots.</p>
+
+  </div>
+  <div>
+
+    <p><img src="/londonsquared/assets/images/london-squared-5.jpg" alt="layered visualisation techniques on the  London Squared layout" /></p>
+
+    <p>Bringing it all home, combining shading, dots, and numerical display for a richer account of the data.</p>
+
+  </div>
+</div>
+
+<p>We have plenty more work to do on the amount of data that can be shown and how to show different quantities and types of data. Watch this space.</p>
+
+<p>Source: <a href="https://data.london.gov.uk">London data store</a></p>
+
+      </div>
+     
+      <footer>
+        <p class="secondary">
+          After the flood
+          <br>140–142 St John St, London, EC1V 4UB, UK
+          <br><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6900070f0629080f1d0c1b1d010c0f0506060d470a0604">[email&#160;protected]</a>
+          <br><a href="https://twitter.com/AftertheFloodco">@Afterthefloodco</a>
+          <br>Registered in England and Wales as After the flood Limited. 7792366
+        </p>
+      </footer>
+
+    </div>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
