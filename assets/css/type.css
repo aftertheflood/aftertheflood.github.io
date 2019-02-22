@@ -12,51 +12,44 @@ body {
 	line-height: 1.5em;
 	letter-spacing: 0.005em;
 }
-
 @media only screen and (min-width: 600px) {body {font-size: 21px;}}
 
 h1 {
-	/* text-transform: uppercase; */
-	padding: 20px;
 	font-size: 64px;
 	font-weight: 800;
 	letter-spacing: -0.04em;
-	margin: 0.65em 0 0.6em 0;	
-	color: #ff3557;
-	text-shadow: 1px 0px 0px #b41530,
-	2px 0px 0px #b41530,
-	3px 0px 0px #b41530,
-	4px 0px 0px #b41530,
-	5px 0px 0px #b41530,
-	6px 0px 0px #b41530,
-	7px 0px 0px #b41530,
-	8px 0px 0px #b41530,
-	9px 0px 0px #b41530,
-	10px 0px 0px #b41530,
-	11px 0px 0px #b41530,
-	12px 0px 0px #b41530,
-	13px 0px 0px #b41530,
-	14px 0px 0px #b41530,
-	15px 0px 0px #b41530,
-	16px 0px 0px #b41530,
-	17px 0px 0px #b41530,
-	18px 0px 0px #b41530,
-	19px 0px 0px #b41530,
-	20px 0px 0px #b41530;
+	padding: 0;
+	margin: 42px 0 38px 0;	
+	color: #19c1df;
+	text-shadow: 1px 0px 0px #08869c,
+	2px 0px 0px #08869c,
+	3px 0px 0px #08869c,
+	4px 0px 0px #08869c,
+	5px 0px 0px #08869c,
+	6px 0px 0px #08869c,
+	7px 0px 0px #08869c,
+	8px 0px 0px #08869c,
+	9px 0px 0px #08869c,
+	10px 0px 0px #08869c,
+	11px 0px 0px #08869c,
+	12px 0px 0px #08869c,
+	13px 0px 0px #08869c,
+	14px 0px 0px #08869c,
+	15px 0px 0px #08869c,
+	16px 0px 0px #08869c,
+	17px 0px 0px #08869c,
+	18px 0px 0px #08869c,
+	19px 0px 0px #08869c,
+	20px 0px 0px #08869c;
 }
-
-@media only screen and (min-width: 900px) {
-  h1 {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
+@media only screen and (min-width: 900px) {h1 {margin: 58px 0 54px 0;}}
+@media only screen and (min-width: 1400px) {h1 {margin: 65px 0 60px 0;}}
 
 h2 {
 	font-size: 21px;
 	font-weight: 800;
-	color: #ff3557;
-	border-top: 1px solid #ff3557;
+	color: #19c1df;
+	border-top: 1px solid #19c1df;
 }
 
 h3 {
@@ -72,9 +65,6 @@ h3 a:visited {
 }
 
 p {
-	/* font-size: 21px; */
-	/* line-height: 1.3em; */
-	/* font-family: Graphik, Helvetica, Arial, sans-serif; */
 	letter-spacing: 0.005em;
 	color: #888;
 }
@@ -85,9 +75,7 @@ ul {
 	list-style-type: none;
 }
 
-li::before {
-	content: "— ";
-}
+li::before {content: "— ";}
 
 a, 
 a:visited {
@@ -116,7 +104,6 @@ code {
 }
 @media only screen and (min-width: 600px) {code {padding: 2px 7px 2px 7px;}}
 
-
 pre {
 	background: #f6f6f6;
 	padding: 10px 18px;
@@ -124,8 +111,6 @@ pre {
 	border-radius: 5px;
 	max-width: 770px;
 	overflow: auto;
-	/* white-space: pre-wrap; */
-	/* word-break: keep-all; */
 }
 @media only screen and (min-width: 600px) {
 	pre {
@@ -164,16 +149,15 @@ hr.no-top-border {
 
 header,
 footer p {
-	font-size: 14px;
+	font-size: 13.3px;
 	font-style: normal;
 	font-weight: 400;
-	letter-spacing: 0.04em;
+	letter-spacing: 0.035em;
 	line-height: 1.5em;
 }
+@media only screen and (min-width: 600px) {header, footer p {font-size: 14.4px;}}
 
-header {
-	color: #888;
-}
+header {color: #888;}
 
 header {
 	margin: 0;
@@ -182,7 +166,7 @@ header {
 
 header a,
 header a:visited {
-	color: #ff3557;
+	color: #19c1df;
 	text-decoration: none;
 	text-shadow: none;
 	box-shadow: none;
@@ -208,7 +192,6 @@ header li {
 header li::before {
 	content: none;
 }
-
 @media only screen and (min-width: 600px) {
 	header li {
 		display: inline;
@@ -224,9 +207,7 @@ header li::before {
 /* The footer
 --------------------------------------------------------------------------------------- */
 
-footer p {
-	color: #fff;
-}
+footer p {color: #fff;}
 
 footer a,
 footer a:visited {
@@ -236,7 +217,7 @@ footer a:visited {
 }
 
 footer a:hover {
-	color: #000;
+	color: #19c1df;
 	text-shadow: none;
 	box-shadow: none;
 }
@@ -249,16 +230,13 @@ footer a:hover {
 /* Reusable components
 --------------------------------------------------------------------------------------- */
 
-.project-title {color: #ff3557;}
+.project-title {color: #19c1df;}
 
 .content h2 {margin-top: 3em;}
 .content h3 {padding-top: 1em;}
 
 .project p, 
-.project ul {
-	max-width: 800px;
-	/* line-height: 1.4em; */
-}
+.project ul {max-width: 800px;}
 
 .project h3 {margin-top: 2em;}
 @media only screen and (min-width: 600px) {.project h3 {margin-top: 0;}}
@@ -278,7 +256,7 @@ footer a:hover {
 .project li a:hover {
 	color: #000;
 	text-decoration: none;
-	box-shadow: inset 0 -100px 0 0 #ff3557;
+	box-shadow: inset 0 -100px 0 0 #19c1df;
 	transition: color 0.3s, box-shadow 0.6s;
 }
 
@@ -293,7 +271,7 @@ footer a:hover {
 .project h3 a:hover {
 	color: #000;
 	text-decoration: none;
-	box-shadow: inset 0 -100px 0 0 #ff3557;
+	box-shadow: inset 0 -100px 0 0 #19c1df;
 	transition: color 0.3s, box-shadow 0.6s;
 }
 
@@ -309,14 +287,11 @@ footer a:hover {
 	transition: opacity 0.5s, filter 0.5s;
 }
 
-
-
-
 .highlight {color: #000;}
 
 .highlight a, 
 .highlight a:visited {
-	color: #ff3557;
+	color: #19c1df;
 	text-decoration: none;
 	box-shadow: none;
 }
@@ -332,10 +307,6 @@ footer a:hover {
 
 
 
-
-
-
-
 /* =======================================================================================
 PAGES
 ======================================================================================= */
@@ -344,9 +315,11 @@ PAGES
 /* TOC page 
 --------------------------------------------------------------------------------------- */
 
+.toc {margin-top: 22px;}
+@media only screen and (min-width: 900px)  {.toc {margin-top: 24px}}
+@media only screen and (min-width: 1400px) {.toc {margin-top: 25px}}
+
 .toc-list {
-	/* background: yellow; */
-	/* border-top: 1px solid #fff; */
 	color: #888;
 }
 
@@ -358,7 +331,7 @@ PAGES
 
 .toc-list h2 {
 	font-weight: 800;
-	letter-spacing: -0.03em;
+	letter-spacing: -0.04em;
 	padding: 0;
 	margin: 0;
 	border-top: none;
@@ -375,17 +348,13 @@ PAGES
 @media only screen and (min-width: 600px) {
 	h1, 
 	.toc-list h2, 
-	.toc-list p {
-		font-size: 64px;
-	}
+	.toc-list p {font-size: 64px;}
 }
 
 @media only screen and (min-width: 900px) {
 	h1, 
 	.toc-list h2, 
-	.toc-list p {
-		font-size: 90px;
-	}
+	.toc-list p {font-size: 90px;}
 }
 
 @media only screen and (min-width: 1400px) {
@@ -396,7 +365,6 @@ PAGES
 		max-width: 1400px;
 	}
 }
-
 
 .toc-list a, .toc-list a:visited {
 	color: #000;
@@ -411,45 +379,80 @@ PAGES
 		0px -9px 0px #ccc,
 		0px -10px 0px #ccc,
 		0px -11px 0px #ccc,
-		0px -12px 0px #ccc,
-		0px -13px 0px #ccc,
-		0px -14px 0px #ccc,
-		0px -15px 0px #ccc,
-		0px -16px 0px #ccc,
-		0px -17px 0px #ccc,
-		0px -18px 0px #ccc,
-		0px -19px 0px #ccc,
-		0px -20px 0px #ccc;
+		0px -12px 0px #ccc;
 	transition: color 0.4s, text-shadow 0.7s;
+}
+@media only screen and (min-width: 600px) {
+	/* Large block shadow on non-mobile screens */
+	.toc-list a, .toc-list a:visited {
+		text-shadow: 0px -1px 0px #ccc,
+			0px -2px 0px #ccc,
+			0px -3px 0px #ccc,
+			0px -4px 0px #ccc,
+			0px -5px 0px #ccc,
+			0px -6px 0px #ccc,
+			0px -7px 0px #ccc,
+			0px -8px 0px #ccc,
+			0px -9px 0px #ccc,
+			0px -10px 0px #ccc,
+			0px -11px 0px #ccc,
+			0px -12px 0px #ccc,
+			0px -13px 0px #ccc,
+			0px -14px 0px #ccc,
+			0px -15px 0px #ccc,
+			0px -16px 0px #ccc,
+			0px -17px 0px #ccc,
+			0px -18px 0px #ccc,
+			0px -19px 0px #ccc,
+			0px -20px 0px #ccc;
+	}
 }
 
 .toc-list a:hover {
-	color: #ff3557;
+	color: #19c1df;
 	text-decoration: none;
 	border-bottom: none;
 	box-shadow: none;
-	text-shadow: 1px 0px 0px #b41530,
-		2px 0px 0px #b41530,
-		3px 0px 0px #b41530,
-		4px 0px 0px #b41530,
-		5px 0px 0px #b41530,
-		6px 0px 0px #b41530,
-		7px 0px 0px #b41530,
-		8px 0px 0px #b41530,
-		9px 0px 0px #b41530,
-		10px 0px 0px #b41530,
-		11px 0px 0px #b41530,
-		12px 0px 0px #b41530,
-		13px 0px 0px #b41530,
-		14px 0px 0px #b41530,
-		15px 0px 0px #b41530,
-		16px 0px 0px #b41530,
-		17px 0px 0px #b41530,
-		18px 0px 0px #b41530,
-		19px 0px 0px #b41530,
-		20px 0px 0px #b41530;
+	text-shadow: 1px 0px 0px #08869c,
+		2px 0px 0px #08869c,
+		3px 0px 0px #08869c,
+		4px 0px 0px #08869c,
+		5px 0px 0px #08869c,
+		6px 0px 0px #08869c,
+		7px 0px 0px #08869c,
+		8px 0px 0px #08869c,
+		9px 0px 0px #08869c,
+		10px 0px 0px #08869c,
+		11px 0px 0px #08869c,
+		12px 0px 0px #08869c;
 	transition: color 0.4s, text-shadow 0.7s;
 }
+@media only screen and (min-width: 600px) {
+	/* Same for the links */
+	.toc-list a:hover {
+		text-shadow: 1px 0px 0px #08869c,
+			2px 0px 0px #08869c,
+			3px 0px 0px #08869c,
+			4px 0px 0px #08869c,
+			5px 0px 0px #08869c,
+			6px 0px 0px #08869c,
+			7px 0px 0px #08869c,
+			8px 0px 0px #08869c,
+			9px 0px 0px #08869c,
+			10px 0px 0px #08869c,
+			11px 0px 0px #08869c,
+			12px 0px 0px #08869c,
+			13px 0px 0px #08869c,
+			14px 0px 0px #08869c,
+			15px 0px 0px #08869c,
+			16px 0px 0px #08869c,
+			17px 0px 0px #08869c,
+			18px 0px 0px #08869c,
+			19px 0px 0px #08869c,
+			20px 0px 0px #08869c;
+	}
+}
+
 
 
 
