@@ -18,7 +18,7 @@ h1 {
 	font-size: 64px;
 	font-weight: 800;
 	letter-spacing: -0.04em;
-	padding: 0;
+	padding: 20px;
 	margin: 42px 0 38px 0;	
 	color: #19c1df;
 	text-shadow: 1px 0px 0px #08869c,
@@ -42,7 +42,13 @@ h1 {
 	19px 0px 0px #08869c,
 	20px 0px 0px #08869c;
 }
-@media only screen and (min-width: 900px) {h1 {margin: 58px 0 54px 0;}}
+@media only screen and (min-width: 900px) {
+	h1 {
+		margin: 58px 0 54px 0;
+		padding-left: 30px;
+    padding-right: 30px;
+	}
+}
 @media only screen and (min-width: 1400px) {h1 {margin: 65px 0 60px 0;}}
 
 h2 {
