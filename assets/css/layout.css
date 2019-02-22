@@ -9,9 +9,6 @@ body {
 }
 
 .page{
-  /* display: grid; */
-  /* grid-template-columns: 1fr; */
-  /* grid-template-rows: auto auto auto;  */
   box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
@@ -31,32 +28,41 @@ header {
   padding-top: 20px;
 }
 
-@media only screen and (min-width: 900px) {
-  header {
-    padding: 30px;
-    padding-top: 20px;
+li.main-site-link {
+  padding-right: 0;
+}
+li.main-site-link a,
+li.main-site-link a:visited {
+  color: #888;
+}
+li.main-site-link a:hover,
+li.main-site-link a:active {
+  color: #000;
+}
+@media only screen and (min-width: 800px) {
+  li.main-site-link {
+    float: right;
   }
 }
 
-.content{
-  padding: 20px;
-  /* display: grid; */
+@media only screen and (min-width: 900px) {
+  header {
+    padding: 30px;
+    padding-top: 24px;
+  }
 }
+
+.content {padding: 20px;}
 
 @media only screen and (min-width: 900px) {
   .content{
     padding-left: 30px;
     padding-right: 30px;
-    /* display: grid; */
-    /* grid-template-columns: repeat(2, 1fr); */
-    /* grid-gap: 10px; */
-    /* grid-column: 1 / span 2; */
   }
 }
 
 img.full-width  {
   display: block;
-  /* height: 100%; */
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -110,14 +116,9 @@ footer {
   width: 100%;
   background-image: url("/assets/images/atf-logo-clipped-white-translucent.png");
   background-size: 100%;
-  background-color: #243a26;
+  background-color: #4d3500;
   background-repeat: no-repeat;
   background-position: center bottom;
   color: #FFFFFF;
 }
-
-@media only screen and (min-width: 900px) {
-  footer {
-    padding: 24px 30px 120px 30px;
-  }
-}
+@media only screen and (min-width: 900px) {footer {padding: 24px 30px 120px 30px;}}
