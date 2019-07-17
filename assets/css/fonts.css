@@ -3,6 +3,7 @@ Graphik Font
 ----------------------------------------------------------*/
 
 @font-face {
+	font-display: fallback;
 	font-family: 'Graphik';
 	src: url('/assets/fonts/Graphik-BlackItalic-Web.eot');
 	src: url('/assets/fonts/Graphik-BlackItalic-Web.eot?#iefix') format('embedded-opentype'),
@@ -22,6 +23,7 @@ Graphik Font
 
 
 @font-face {
+	font-display: fallback;
 	font-family: 'Graphik';
 	src: url('/assets/fonts/Graphik-Black-Web.eot');
 	src: url('/assets/fonts/Graphik-Black-Web.eot?#iefix') format('embedded-opentype'),
@@ -41,6 +43,7 @@ Graphik Font
 
 
 @font-face {
+	font-display: fallback;
 	font-family: 'Graphik';
 	src: url('/assets/fonts/Graphik-RegularItalic-Web.eot');
 	src: url('/assets/fonts/Graphik-RegularItalic-Web.eot?#iefix') format('embedded-opentype'),
@@ -60,6 +63,7 @@ Graphik Font
 
 
 @font-face {
+	font-display: fallback;
 	font-family: 'Graphik';
 	src: url('/assets/fonts/Graphik-Regular-Web.eot');
 	src: url('/assets/fonts/Graphik-Regular-Web.eot?#iefix') format('embedded-opentype'),
