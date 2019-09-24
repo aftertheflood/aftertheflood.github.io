@@ -1,4 +1,10 @@
 <article class="toc-list">
+  <h2><a href="http://www.levelwagesleague.com">Level wages league</a></h2>
+  <p>
+    A fairer look at football.
+  </p>
+</article>
+<article class="toc-list">
   <h2><a href="/sparks/">Sparks</a></h2>
   <p>
     A typeface for creating sparklines in text without code.
