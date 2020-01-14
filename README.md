@@ -16,3 +16,9 @@
   A visualization layout for London borough data and a D3 module to implement it.
   </p>
 </article>
+<article class="toc-list">
+  <h2><a href="/predictions-2020/">Predictions 2020</a></h2>
+  <p>
+  Auto-generate mad-lib style predictions. You can <a href="https://aftertheflood.com/journal/predictions-2020/">read more about the thinking behind this on our blog</a>. 
+  </p>
+</article>
